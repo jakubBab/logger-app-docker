@@ -4,6 +4,11 @@ Docker with logger app
 Usage
 -----
 
+Download app
+```bash 
+git clone git@github.com:jakubBab/logger-app.git app
+```
+
 Build container
 ```bash
 docker-compose build
@@ -21,6 +26,6 @@ Run composer
 composer install
 ```
 
-Instruction on how to run the app can be found [here](./app/README.md)
+Instruction on how to run the app can be found [here](https://github.com/jakubBab/logger-app/blob/master/phpunit.xml)
 
 
