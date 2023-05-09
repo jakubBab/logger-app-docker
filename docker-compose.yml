@@ -1,0 +1,13 @@
+version: '3'
+services:
+    php-fpm:
+      container_name: ${APP_NAME}-php
+      build:
+          context: ./php8-fpm
+      volumes:
+          - ${APP_PATH}:/var/www/app
+      networks:
+        - default
+networks:
+  default:
+    driver: bridge
