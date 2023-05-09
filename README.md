@@ -26,6 +26,6 @@ Run composer
 composer install
 ```
 
-Instruction on how to run the app can be found [here](https://github.com/jakubBab/logger-app/blob/master/phpunit.xml)
+Instruction on how to run the app can be found [here](https://github.com/jakubBab/logger-app/blob/master/README.md)
 
 
